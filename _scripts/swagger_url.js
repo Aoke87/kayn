@@ -1,4 +1,4 @@
 const SWAGGER_URL =
-    'http://mingweisamuel.com/riotapi-schema/swaggerspec-2.0.json'
+    'http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json'
 
 export default SWAGGER_URL

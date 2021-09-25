@@ -11,7 +11,7 @@
     "lint-examples": "prettier --config=prettier.json --write \"./examples/**/*.js\"",
     "lint-scripts": "prettier --config=prettier.json --write \"./_scripts/**/*.js\"",
     "lint-typings": "prettier --config=prettier-typescript.json --write \"./typings/{,!(node_modules)/**/}*.ts\"",
-    "lint": "yarn lint-src; yarn lint-example; yarn lint-test; yarn lint-examples; yarn lint-scripts; yarn lint-typings;",
+    "lint": "yarn lint-src && yarn lint-example && yarn lint-test && yarn lint-examples && yarn lint-scripts && yarn lint-typings",
     "docs": "./node_modules/.bin/esdoc ./lib/**/*.js",
     "test": "yarn build && yarn lint; yarn lint-test; yarn test-only",
     "test-only": "node_modules/.bin/babel-node ./node_modules/.bin/babel-istanbul cover ./node_modules/mocha/bin/_mocha -- --require babel-register \"test/unit/**/*.spec.js\"",
