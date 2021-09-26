@@ -253,6 +253,7 @@ declare enum REGIONS {
     BRAZIL = 'br',
     EUROPE = 'eune',
     EUROPE_WEST = 'euw',
+    EUROPE_NEW = 'europe',
     KOREA = 'kr',
     LATIN_AMERICA_NORTH = 'lan',
     LATIN_AMERICA_SOUTH = 'las',
