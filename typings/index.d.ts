@@ -90,7 +90,7 @@ declare module 'kayn' {
         }
 
         public Match: {
-            get: (matchID: number) => KaynRequest<dtos.MatchV5MatchDTO>
+            get: (matchID: string) => KaynRequest<dtos.MatchV5MatchDTO>
             timeline: (matchID: number) => KaynRequest<dtos.MatchV5MatchTimelineDTO>
             puuid: (puuId: string) => KaynRequest<Array<String>>
         }
